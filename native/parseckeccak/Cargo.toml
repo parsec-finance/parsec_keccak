@@ -1,0 +1,15 @@
+[package]
+name = "parseckeccak"
+version = "0.1.0"
+authors = []
+edition = "2021"
+
+[lib]
+name = "parseckeccak"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+rustler = "0.29.1"
+tiny-keccak = { version = "2.0.2", features = ["keccak"] }
+base16 = "0.2.1"
