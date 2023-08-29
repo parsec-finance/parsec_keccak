@@ -1,6 +1,6 @@
 # ParsecKeccak
 
-**TODO: Add description**
+Rust extension for string -> keccak hash
 
 ## Installation
 
